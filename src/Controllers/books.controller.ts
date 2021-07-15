@@ -9,7 +9,7 @@ import {
 } from '@nestjs/common';
 import { BookDto } from 'src/DTOS/books.dto';
 import { Book } from 'src/MongoDb/interfaces/book.interface';
-import { BooksService } from 'src/Services/books/books.service';
+import { BooksService } from 'src/Services/books.service';
 
 @Controller('books')
 export class BooksController {
